@@ -1,0 +1,641 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.31f1 (4ede2d13e8b4) revision 5168685'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16071 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/WPG-3
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+53691
+Successfully changed project path to: C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/WPG-3
+C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/WPG-3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23232] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3696253728 [EditorId] 3696253728 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23232] Host "[IP] 192.168.1.69 [Port] 0 [Flags] 2 [Guid] 3696253728 [EditorId] 3696253728 [Version] 1048832 [Id] WindowsEditor(7,Tegar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pongo/OneDrive/Documents/GameDev/WPG3/WPG-3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3753
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004680 seconds.
+- Loaded All Assemblies, in  0.321 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.263 seconds
+Domain Reload Profiling: 584ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (103ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (264ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.199 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.315 seconds
+Domain Reload Profiling: 514ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (8ms)
+		LoadAssemblies (80ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (46.6 KB). Loaded Objects now: 480.
+Memory consumption went from 51.3 MB to 51.3 MB.
+Total: 1.871700 ms (FindLiveObjects: 0.024900 ms CreateObjectMapping: 0.003200 ms MarkObjects: 1.768800 ms  DeleteObjects: 0.074100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15526.347015 seconds.
+  path: Assets/3D/Prefabs
+  artifactKey: Guid(f35454280d5c8894fb349bc1e83fc8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs using Guid(f35454280d5c8894fb349bc1e83fc8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7360af663815af24797ebdb741fecfc') in 0.002792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.483122 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_02.prefab
+  artifactKey: Guid(4216f40e5992ad64f98997d7feaae9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_02.prefab using Guid(4216f40e5992ad64f98997d7feaae9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3237fb1d844e99da7b4a0754584cdd34') in 0.151195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_03.prefab
+  artifactKey: Guid(569fe29f093546a4ea29f86058cb2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_03.prefab using Guid(569fe29f093546a4ea29f86058cb2b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8adafc327f9da09e5523ecd1a1d4cd3') in 0.064715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_10.prefab
+  artifactKey: Guid(2027ff0b9c6efce45afcb3ce621f4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_10.prefab using Guid(2027ff0b9c6efce45afcb3ce621f4efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0b1845f101f8d0ecbd0199d68efd3cf') in 0.037816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_30.prefab
+  artifactKey: Guid(63f12adfc270f794daf628214a1ab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_30.prefab using Guid(63f12adfc270f794daf628214a1ab05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'eb0b273e94bc0d2dd474904804b62b87') in 0.074524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_35.prefab
+  artifactKey: Guid(40513142e1b3ce44fb61386f46e89191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_35.prefab using Guid(40513142e1b3ce44fb61386f46e89191) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea061716dbcaac10d560be31eea39a4a') in 0.042189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_14.prefab
+  artifactKey: Guid(e6b5af562fef84b4a871c770bfd92cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_14.prefab using Guid(e6b5af562fef84b4a871c770bfd92cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '812cc9c234adacd82bd6eeebaedb833e') in 0.027244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_24.prefab
+  artifactKey: Guid(45a3c64249939504b82ae0d407f8e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_24.prefab using Guid(45a3c64249939504b82ae0d407f8e0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5839beba2349fbf019439c6490ea1835') in 0.024896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_36.prefab
+  artifactKey: Guid(46a6db1c661cb6d4e93d9dd4854cdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_36.prefab using Guid(46a6db1c661cb6d4e93d9dd4854cdaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b431aa40bd3320f7eadda3add6b3b5a6') in 0.026431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_31.prefab
+  artifactKey: Guid(bdb8fb282611f1f4bb345e1ca28cb9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_31.prefab using Guid(bdb8fb282611f1f4bb345e1ca28cb9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f06381674116fe3fbcc79e830173fef1') in 0.032774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/3D/Prefabs/Props/General/BookOpen_02.prefab
+  artifactKey: Guid(6f6dbf0d4da76bc43a86959f68e654b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/BookOpen_02.prefab using Guid(6f6dbf0d4da76bc43a86959f68e654b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2efa372aa0b1cf3d3c65e69f5d5f97e4') in 0.036598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D/Prefabs/Props/General/SM_Pilaster_2.prefab
+  artifactKey: Guid(78bb67027cfd6bc459750bb890a2199d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/SM_Pilaster_2.prefab using Guid(78bb67027cfd6bc459750bb890a2199d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '22437a3a5c7718c867016e0f225710fa') in 0.038627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_48.prefab
+  artifactKey: Guid(326efdb47e694b7459f44450118d9f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_48.prefab using Guid(326efdb47e694b7459f44450118d9f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd031bbcb52bb14937ab30b8cc4e65d9c') in 0.024717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_29.prefab
+  artifactKey: Guid(3a605d06d476a1a47899db8445282b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_29.prefab using Guid(3a605d06d476a1a47899db8445282b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '57e7cd51d0a6f1a29a405a44d307abc7') in 0.034840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/BookS_11.prefab
+  artifactKey: Guid(3d70d9296ffe51f4c88c8d800a89bef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/BookS_11.prefab using Guid(3d70d9296ffe51f4c88c8d800a89bef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3dba1ec7befc8ba03bccb0a8d6ce2894') in 0.026626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_37.prefab
+  artifactKey: Guid(fbc5d079643def344a592ed5ec6b399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_37.prefab using Guid(fbc5d079643def344a592ed5ec6b399b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '84c00bdc899e0b0e4eef85f9c24f8c87') in 0.023683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_21.prefab
+  artifactKey: Guid(42fb861e419f88c4bab48e63f968790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_21.prefab using Guid(42fb861e419f88c4bab48e63f968790c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d913fba1fb3f7d211055338f15ab5bf') in 0.023122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_13.prefab
+  artifactKey: Guid(aa1ec9ab45854e4469abafbc3ee40cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_13.prefab using Guid(aa1ec9ab45854e4469abafbc3ee40cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'efc6b55dd0b77e23384ca5172a9c15c0') in 0.025150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D/Prefabs/Props/General/BookS_04.prefab
+  artifactKey: Guid(b8297e6fdb6c82a4399c872fae0b11ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/BookS_04.prefab using Guid(b8297e6fdb6c82a4399c872fae0b11ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e80c314f24ea09da7981a04ec29d7f20') in 0.025000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_30.prefab
+  artifactKey: Guid(540a7783e2e68024d8b356d1088006a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_30.prefab using Guid(540a7783e2e68024d8b356d1088006a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4359133c7b2a3677565ee6dae6c864a9') in 0.022673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_16.prefab
+  artifactKey: Guid(2885effd021b6824a9e1d0815b9ebd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_16.prefab using Guid(2885effd021b6824a9e1d0815b9ebd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5412ac3f403ad41b772dbfe68fe478b0') in 0.028152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_35.prefab
+  artifactKey: Guid(cc6823a7529728e4aae9e89383088c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_35.prefab using Guid(cc6823a7529728e4aae9e89383088c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4cacc83d0f35d568a4b292ae90b8215') in 0.033912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_28.prefab
+  artifactKey: Guid(08028ed28f5c22d4091470eefddbdcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_28.prefab using Guid(08028ed28f5c22d4091470eefddbdcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30b97e4cb7554f30ee1e4d9d7b4c605c') in 0.023349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_45.prefab
+  artifactKey: Guid(626b3f7dc19f8644e91680aae1e0e457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_45.prefab using Guid(626b3f7dc19f8644e91680aae1e0e457) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '77ecbe4d03800128494b1001656521c9') in 0.025182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_46.prefab
+  artifactKey: Guid(4f5ed9a641c05c94b9a0c792f23afcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_46.prefab using Guid(4f5ed9a641c05c94b9a0c792f23afcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '19233ac2c6773077a2c6b8ad0818bcb7') in 0.024195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_44.prefab
+  artifactKey: Guid(d95a0f90c54a32442aeb1bcb7132abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_44.prefab using Guid(d95a0f90c54a32442aeb1bcb7132abd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f37eb10ca52f9a2ff1c02b3a0e554427') in 0.024904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_27.prefab
+  artifactKey: Guid(d708b071cb5db674b922d0fa32029b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_27.prefab using Guid(d708b071cb5db674b922d0fa32029b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e371d5a02b9ed5d62efb31f3749128a8') in 0.024442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_67.prefab
+  artifactKey: Guid(42afb6dd2919aa440b5f501370f9a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_67.prefab using Guid(42afb6dd2919aa440b5f501370f9a7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55eb7adf609a4a03f6c360e36b05b113') in 0.025915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D/Prefabs/Props/General/BookOpen_01.prefab
+  artifactKey: Guid(2c939eea094b1954f8d984cc62bf84e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/BookOpen_01.prefab using Guid(2c939eea094b1954f8d984cc62bf84e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71dd82ce8c2baacb25f8bff2a657007e') in 0.022009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_03.prefab
+  artifactKey: Guid(3f82834fbfe9663449b71bae4e77ac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_03.prefab using Guid(3f82834fbfe9663449b71bae4e77ac5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f6605ced573a97f97919ebb53d5d200') in 0.023418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_17.prefab
+  artifactKey: Guid(0bd7f7326b4e78440b63d16c6d4e373d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_17.prefab using Guid(0bd7f7326b4e78440b63d16c6d4e373d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93aa84286bbb27d2e8f2d356b1c7d1d6') in 0.027280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_31.prefab
+  artifactKey: Guid(f0ea3d508b1605f4d9c18ae89e2f147d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_31.prefab using Guid(f0ea3d508b1605f4d9c18ae89e2f147d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8c0123219b8a6a7cafa83425e2fe55f3') in 0.024614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_33.prefab
+  artifactKey: Guid(1349b1f948f2cab4f8e76c543adfcc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_33.prefab using Guid(1349b1f948f2cab4f8e76c543adfcc0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3fda6afb7497f5b8deb3e2e4cf55902') in 0.036264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_22.prefab
+  artifactKey: Guid(e37b21d69b4e3c5429234fc53b686947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_22.prefab using Guid(e37b21d69b4e3c5429234fc53b686947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3deccee39279c14f7de7df293834975a') in 0.025584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_06.prefab
+  artifactKey: Guid(70c4d5dec96909b4887088610fb8a525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_06.prefab using Guid(70c4d5dec96909b4887088610fb8a525) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c9483117aaa3b64c453f8b4a5da26d29') in 0.025648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_40.prefab
+  artifactKey: Guid(fdbae7314f9d73e44903093c6df66522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_40.prefab using Guid(fdbae7314f9d73e44903093c6df66522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bace200d37a1f9114de3cf7ca36c9565') in 0.025268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_19.prefab
+  artifactKey: Guid(5196b35a26d47ae41a9caaea81fd4288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_19.prefab using Guid(5196b35a26d47ae41a9caaea81fd4288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '93efb4db03580e9dae1bd381403bb3a8') in 0.026832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.001310 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_08.prefab
+  artifactKey: Guid(2f90da670a13ef94281462995f210d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_08.prefab using Guid(2f90da670a13ef94281462995f210d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f78dcede05fb93f6ba9cb652e5aa60ec') in 0.025496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/3D/Prefabs/Props/General/Books_07.prefab
+  artifactKey: Guid(dc857f0b61199df44b48ab3715227cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Books_07.prefab using Guid(dc857f0b61199df44b48ab3715227cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5176c473a1ec624306200a7e1a1051cd') in 0.024951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_16.prefab
+  artifactKey: Guid(28e6540f53d7d2f42ba0713f67270943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_16.prefab using Guid(28e6540f53d7d2f42ba0713f67270943) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0396bef3711aa21d08f7e9ac005ff2a') in 0.024686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_07.prefab
+  artifactKey: Guid(e35548dae6c761144b3ceaa9711bac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_07.prefab using Guid(e35548dae6c761144b3ceaa9711bac8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c764b05f3256857b9201634000659c37') in 0.026353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_47.prefab
+  artifactKey: Guid(a98463b59377b0f46931f56299a20d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_47.prefab using Guid(a98463b59377b0f46931f56299a20d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ffad3fb12bb14b59a6c31ca7a98fde96') in 0.027961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_19.prefab
+  artifactKey: Guid(4fd236b7b053d8948b39ca242ee08a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_19.prefab using Guid(4fd236b7b053d8948b39ca242ee08a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '37511850da5332516029199785f07aec') in 0.025629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_43.prefab
+  artifactKey: Guid(35057f6fa88cda447a534373f12cdfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_43.prefab using Guid(35057f6fa88cda447a534373f12cdfd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5aec72615a6367c3956f0a480fc7a981') in 0.025352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_32.prefab
+  artifactKey: Guid(18706fd0621e69a46902d7396015d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_32.prefab using Guid(18706fd0621e69a46902d7396015d9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8babf209cd9e50d2f6c26aea69d450b7') in 0.025675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/3D/Prefabs/Props/General/Book_11.prefab
+  artifactKey: Guid(5ff05a231dd5058409a4d841b55bfd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Prefabs/Props/General/Book_11.prefab using Guid(5ff05a231dd5058409a4d841b55bfd00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa12240ce1a48b824531098f919397a5') in 0.025800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
